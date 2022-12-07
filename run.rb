@@ -30,4 +30,6 @@ s3_client = build_s3_client
 # Put the test object into s3.
 # If the test.json appears in your bucket your credentials
 # are working.
-s3_client.put_object(build_payload)
+response = s3_client.put_object(build_payload)
+
+response.each_pair { |(name, value)| p "#{name} => #{value}" }
