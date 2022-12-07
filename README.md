@@ -1,6 +1,6 @@
-# S3 Cross Account Tester
+# AWS S3 Cross Account Tester
 
-A frequent task across s3 accounts is to put object into a bucket or read and object from a bucket. 
+A frequent task across AWS s3 accounts is to put object into an s3 bucket or read and object from a bucket. 
 
 This s3 cross account tester is an incredibly simple ruby program designed to simply test if an object can be written to a bucket.
 
