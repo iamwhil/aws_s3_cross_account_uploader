@@ -31,3 +31,5 @@ Once the `.env` file is populated simply `ruby run.rb`.
 The output of this will be a raised exception if something goes wrong - eg, no permissions or bucket does not exist.
 
 If all goes right the result objects key value pairs are printed to the screen.
+
+* Note: the .env file is included in the `.gitignore` file and should not be commited to any of your repos. Do NOT commit secrets!
