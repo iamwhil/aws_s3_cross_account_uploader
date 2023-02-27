@@ -20,7 +20,7 @@ def build_payload
   {
     body: { hello: 'world' }.to_json,
     bucket: bucket,
-    key: 'test.json'
+    key: 'mystery-team/test.json'
   }
 end
 
